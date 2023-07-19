@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgb(226, 128, 17);
+}
+#pagina{
+  min-width: 360px; /* Para configurar a responsividade da página */
+  max-width: 800px; /* Para configurar a responsividade da página */ 
+  height: auto;
+  margin: 0px auto; /* PAra a página ficar ao centro */
+  padding: 20px 0px;
+  background-color: white;
+}
+img{
+  width: 100%;
+}
+@media screen  and (max-width : 600px){
+  #pagina{
+    background-color: aqua;
+  } 
+}
+@media screen and (min-width : 300px) and (max-width: 599px){
+  #pagina{
+    background-color: black;
+    color: white;
+  }
+
+}
+  
+
+@media print{
+  *{
+    color: rgb(89, 170, 89);
+  }
+}
